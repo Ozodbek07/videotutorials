@@ -139,3 +139,11 @@ p{
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
     border-radius: 10px
 }
+.cardcss:hover{
+  background: rgb(187, 183, 183);
+  cursor: pointer;
+}
+p{
+  color: black;
+  text-decoration: none !important;
+}
