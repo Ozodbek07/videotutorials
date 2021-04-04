@@ -55,17 +55,6 @@ p{
 .footer p {
   margin-top: 10px;
 }
-  .reveal {
-    position: relative;
-    transform: translateY(20px);
-    opacity: 0;
-    transition: all 1.3s ease
-  }
-  
-  .reveal.active {
-    transform: translateY(0);
-    opacity: 1;
-  }
   .preloader {
     position: fixed;
     left: 0;
