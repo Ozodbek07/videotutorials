@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 .header{
     font-size: 1.6rem;
@@ -145,5 +146,8 @@ p{
 }
 p{
   color: black;
+}
+
+a{
   text-decoration: none !important;
 }
