@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+p {
+    font-size: 160%;
+}
+.card {
+    margin-left: 20px !important;
+}
+.cards1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    background: #000016;
+    color: #fff;
+    text-align: center;
+    padding: 34px;
+}
+.footer .footer-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer p {
+    margin-top: 10px;
+}
+.cardcss {
+    background: #fff;
+    width: 300px;
+    margin: 10px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+}
+.cardcss:hover {
+    background: #bbb7b7;
+    cursor: pointer;
+}
+p {
+    color: #000;
+}
+a {
+    text-decoration: none !important;
+}
+@media (max-width: 1049px) {
+    .cards1 {
+        display: block;
+        margin-left: 10%;
+    }
+    .cards2 {
+        display: block;
+        margin-left: 10%;
+    }
+    .cards3 {
+        display: block;
+        margin-left: 10%;
+    }
+    .cards4 {
+        display: block;
+        margin-left: 10%;
+    }
+    .cardcss {
+        width: 80% !important;
+        margin-top: 10%;
+    }
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 150%;
+}
